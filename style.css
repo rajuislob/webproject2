@@ -1,0 +1,95 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('/img/bg.jpg');
+
+}
+.left{
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    /*border: 2px solid red;*/
+    display: inline-block;
+}
+.left img{
+    width: 136px;
+    filter: invert(100%);
+}
+.left div{
+    line-height: 19px;
+    font-size: 25px;
+    text-align: center;
+      
+}
+.mid{
+    display: block;
+    width: 36%;
+    margin:40px auto;
+    /*border: 2px solid yellow;*/
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 55px;
+    /*border: 2px solid green ;*/
+    display: inline-block;
+}
+.btn{
+    font-family: 'Oswald', sans-serif;
+    margin:0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(66, 64, 64);
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 24px 23px;
+}
+.navbar li a:hover ,  .navbar li a.active {
+    text-decoration: underline;
+    color:rgb(88, 186, 247);
+}
+.container{
+    border: 2px solid rgb(255, 255, 255);
+    margin: 150px 60px;
+    padding: 70px;
+    width: 33%;
+    border-radius: 28px;
+
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 6px;
+    font-size: 26px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 11px auto;
+    font-family: 'Oswald', sans-serif;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: inline-block;
+    width: 42%;
+    
+}
